@@ -1,4 +1,6 @@
 <?php
+
+// cria as urls do site, para achar a pagina correta
 class Core {
     public function run(){
        

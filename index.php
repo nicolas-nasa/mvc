@@ -1,4 +1,6 @@
 <?php
+
+// facilita a instancia de uma classe inutilzando o requiere.
 session_start();
 require 'config.php';
 
