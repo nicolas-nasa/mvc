@@ -7,14 +7,14 @@ $config = array();
 //verifica se está em produção ou desenvolvimento e altera o banco.
 
 if(ENVIRONMENT == 'development'){
-    define("BASE_URL", "http://projeto.y/");
-    $config['dbname'] = 'estrutura_mvc';
+    define("BASE_URL", "http://projetoy.pc/biblioteca/");
+    $config['dbname'] = 'biblioteca';
     $config['host'] = 'localhost';
     $config['dbuser'] = 'root';
     $config['dbpass'] = '';
 }else{
-    define("BASE_URL", "http://projeto.y/");
-    $config['dbname'] = 'estrutura_mvc';
+    define("BASE_URL", "http://meusite.com/");
+    $config['dbname'] = 'biblioteca';
     $config['host'] = 'localhost';
     $config['dbuser'] = 'root';
     $config['dbpass'] = '';
